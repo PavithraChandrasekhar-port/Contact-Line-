@@ -48,7 +48,7 @@
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
-  cursor: sw-resize;
+  cursor: pointer;
   mix-blend-mode: normal;
 }
 
@@ -65,6 +65,7 @@
   color: #1a1b1f;
   font-size: 0.75vw;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .navigation-item-1-copy-copy.w--current:hover {
@@ -121,6 +122,7 @@
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .navigation-item-1:hover {
@@ -137,6 +139,7 @@
   color: #1a1b1f;
   font-size: 0.751vw;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .navigation-item-1.w--current:hover {
@@ -173,6 +176,7 @@
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .navigation-item-3:hover {
@@ -204,6 +208,7 @@
 .container1---home {
   display: block;
   height: auto;
+  max-height: 80vh;
   margin-top: 0vw;
   margin-bottom: 0vw;
   padding-bottom: 2vw;
@@ -264,7 +269,7 @@
 }
 
 .button.cc-white-button {
-  display: none;
+  display: block;
   overflow: visible;
   margin-top: 30px;
   padding: 16px 20px;
@@ -381,6 +386,7 @@
   display: flex;
   width: 90vw;
   height: auto;
+  max-height: 75vh;
   margin: 0vw 0vw 0vw 5vw;
   padding-top: 2vw;
   padding-bottom: 2vw;
@@ -1155,6 +1161,8 @@
 
 .text-block-7 {
   display: block;
+  padding-top: 2.5vw;
+  padding-right: 1vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1258,9 +1266,8 @@
 
 .text-block-11---3 {
   display: none;
-  padding-right: 2.5vw;
-  padding-bottom: 2.5vw;
-  padding-left: 2.5vw;
+  padding: 1vw 2.5vw 2.5vw;
+  font-family: Montserrat, sans-serif;
   font-size: 1vw;
   line-height: 2vw;
   text-align: center;
@@ -1283,9 +1290,8 @@
 
 .text-block-11 {
   display: none;
-  padding-right: 2.5vw;
-  padding-bottom: 2.5vw;
-  padding-left: 2.5vw;
+  padding: 1vw 2.5vw 2.5vw;
+  font-family: Montserrat, sans-serif;
   font-size: 1vw;
   line-height: 2vw;
   text-align: center;
@@ -1293,9 +1299,8 @@
 
 .text-block-11--5 {
   display: none;
-  padding-right: 2.5vw;
-  padding-bottom: 2.5vw;
-  padding-left: 2.5vw;
+  padding: 1vw 2.5vw 2.5vw;
+  font-family: Montserrat, sans-serif;
   font-size: 1vw;
   line-height: 2vw;
   text-align: center;
@@ -1360,11 +1365,11 @@
 
 .text-block-11---2 {
   display: none;
-  padding-right: 2.5vw;
-  padding-bottom: 2.5vw;
-  padding-left: 2.5vw;
+  padding: 1vw 2.5vw 2.5vw;
+  font-family: Montserrat, sans-serif;
   font-size: 1vw;
   line-height: 2vw;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -2942,7 +2947,7 @@
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
-  cursor: sw-resize;
+  cursor: pointer;
   mix-blend-mode: normal;
 }
 
@@ -3305,6 +3310,22 @@
   padding: 2vw 5vw;
   background-color: #d7d7d7;
   font-family: Montserrat, sans-serif;
+}
+
+.text-block-11---4 {
+  display: none;
+  padding: 1vw 2.5vw 2.5vw;
+  font-family: Montserrat, sans-serif;
+  font-size: 1vw;
+  line-height: 2vw;
+  text-align: center;
+}
+
+.image-09 {
+  width: 15vw;
+  margin-right: 3.75vw;
+  margin-bottom: 2vw;
+  margin-left: 0vw;
 }
 
 @media screen and (max-width: 991px) {
@@ -4521,6 +4542,17 @@
   .image-22-copy-copy {
     width: 15px;
     height: 15px;
+  }
+
+  .text-block-11---4 {
+    width: 27vw;
+    font-size: 1.7vw;
+    line-height: 2.5vw;
+  }
+
+  .image-09 {
+    margin-right: 7.5vw;
+    margin-left: 0vw;
   }
 }
 
@@ -6197,6 +6229,12 @@
     width: 15px;
     height: 15px;
   }
+
+  .text-block-11---4 {
+    width: 42.5vw;
+    font-size: 2.5vw;
+    line-height: 28px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -7603,6 +7641,21 @@
   .submit-button {
     margin-top: 5vw;
   }
+
+  .text-block-11---4 {
+    width: auto;
+    max-width: 65vw;
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
+    font-size: 3.5vw;
+    line-height: 6vw;
+  }
+
+  .image-09 {
+    width: 30vw;
+    margin-right: 15vw;
+    margin-left: 15vw;
+  }
 }
 
 #w-node-bf544fb4-034f-7e77-24f9-5a43a0017e92-e27f6a64 {
@@ -7779,10 +7832,10 @@
 #w-node-fbfd8924-f3a2-2fef-745e-307d79cd6cb7-067f6a68 {
   -ms-grid-column-align: stretch;
   justify-self: stretch;
-  -webkit-align-self: end;
-  -ms-flex-item-align: end;
-  -ms-grid-row-align: end;
-  align-self: end;
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
+  align-self: start;
 }
 
 #w-node-a1a3a38f-e77b-49b2-7b85-20a3a59a90be-067f6a68 {
